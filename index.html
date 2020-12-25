@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Indian Economy : Home</title>
+</head>
+<style>
+    * {
+        font-family: 'Work Sans', sans-serif;
+    }
+
+    .collapse ul li {
+        padding-left: 8px;
+        padding-right: 8px;
+
+        border-radius: 20px;
+
+    }
+
+    .collapse ul li:hover {
+        background-color: white;
+        transition: all 200ms ease-in-out;
+    }
+
+    body::before {
+        content: "";
+        position: absolute;
+        background: url('pic/1.jpg') no-repeat center center/cover;
+        height: 100%;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        opacity: .7;
+        z-index: -1;
+    }
+
+    .navbar-brand {
+        font-family: 'Langar', cursive;
+        font-size: 2rem;
+    }
+
+
+    #container {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        margin-top: 185px;
+    }
+
+    #container h1 {
+        font-size: 3.5rem;
+    }
+
+    .diff {
+        font-family: 'Langar', cursive;
+        font-size: 4rem;
+    }
+
+    .collapse ul li:hover .badge {
+        filter: invert(1);
+
+    }
+
+    .content {
+        margin-top: 320px;
+    }
+
+    .hover2 {
+        border-radius: 20px;
+    }
+
+    .hover2:hover {
+        color: white;
+        background-color: blue;
+        transition: all 200ms ease-in-out;
+    }
+
+    .hover h2 {
+        position: relative;
+        display: inline;
+        cursor: pointer;
+    }
+
+    .hover h2::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 1.7px;
+        background-color: rgb(255, 255, 255);
+
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 200ms ease-in-out;
+    }
+
+    .hover h2:hover::after {
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+
+    @media only screen and (max-width: 800px) and (min-width: 400px) {
+        #container h1 {
+            font-size: 3rem;
+            margin-top: 0px;
+        }
+
+        .diff {
+
+            font-size: 3rem;
+        }
+    }
+
+    @media only screen and (max-width: 400px) {
+        .navbar-brand {
+            font-size: 1.6rem;
+        }
+
+        #container h1 {
+            font-size: 2rem;
+            margin-left: -15px;
+        }
+
+        .diff {
+            font-size: 2rem;
+        }
+
+
+    }
+</style>
+
+<body>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Indian Economy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" aria-current="page" href="about.html" target="_blank">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Economic policies.html" target="_blank"><span
+                                class="badge bg-secondary">New</span> Economic policies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="human resourse development.html" target="_blank">Human Resourse
+                            Development</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="5 year plan.html" target="_blank">5 Year plan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html" target="_blank">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="why this.html" target="_blank">Why this?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact us.html" target="_blank">Contact Us</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" id="container">
+        <h1>Innovation is an <div class="diff"> Inexhaustible engine</div> for economic development
+    </div>
+    <div class="container">
+        <div class="container content">
+            <h1>Economy-</h1>
+
+
+            <div class="card mb-3 hover2" id="margin2" data-aos="fade-left" style="max-width: 100%;">
+                <div class="row g-0">
+                    <div class="col-lg-4 col-md-5">
+                        <img src="pic/Graph.jpg" height="200px" width="260px">
+                    </div>
+                    <div class="col-lg-8 col-md-7">
+                        <div class="card-body hover">
+                            <h2 class="card-title">FDI in India</h2>
+                            <p class="card-text">India has been ranked 15th in the Global FDI Confidence Index 2019
+                                FDI equity inflows to India reached US$ 49.97 billion during 2019-20 while the
+                                cumulative FDI equity
+                                inflows to the country from April 2000 to March 2020 reached US$ 469.99 billion.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3 hover2" data-aos="fade-right" style="max-width: 100%;">
+                <div class="row g-0">
+                    <div class="col-lg-4 col-md-5">
+                        <img src="pic/status.jfif">
+                    </div>
+                    <div class="col-lg-8 col-md-7">
+                        <div class="card-body hover">
+                            <h2 class="card-title">Current Status of Indian Economy</h2>
+                            <p class="card-text">India's GDP (at constant 2011-12 prices) was estimated at Rs 26.9
+                                trillion (US$ 363.49 billion) for the first quarter of FY2020-21, against Rs 35.35
+                                trillion (US$ 477.67 billion) in the first quarter of FY2019-20, showing a
+                                contraction
+                                of 23.9%, compared with 5.2% growth in the first quarter of FY2019-20.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3 hover2" data-aos="fade-up-left" style="max-width: 100%;">
+                <div class="row g-0">
+                    <div class="col-lg-4 col-md-5">
+                        <img src="pic/sensex.jfif" height="200px" width="260px">
+                    </div>
+                    <div class="col-lg-8 col-md-7">
+                        <div class="card-body hover">
+                            <h2 class="card-title">Stock Market Highlights</h2>
+                            <p class="card-text"> Indian benchmark equity indices, Sensex and Nifty ended over 1
+                                percent
+                                higher Thursday led by gains in banking and pharma stocks amid positive global cues.
+                                Broader markets supported gains with Nifty Smallcap ending 0.90 percent higher.
+                                Barring
+                                Nifty IT and Nifty Media, all other sectoral indices ended in the green.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3 hover2" data-aos="fade-up-right" style="max-width: 100%;">
+                <div class="row g-0">
+                    <div class="col-lg-4 col-md-5">
+                        <img src="pic/rbi.jpg" height="200px" width="260px">
+                    </div>
+                    <div class="col-lg-8 col-md-7">
+                        <div class="card-body hover">
+                            <h2 class="card-title">RBI</h2>
+                            <p class="card-text"> Indian economy recovering fast, coming out of COVID-19 pandemic’s deep
+                                abyss
+                                faster; growth to turn positive in Q3.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="card text-center" data-aos="fade-up"
+        data-aos-offset="140"
+        data-aos-duration="900">
+
+            <div class="card-header">
+                <a href="https://www.facebook.com/indianeconomy.net/" target="_blank"><img class="img-links"
+                        src="pic/facebook.png" height="30px" width="35px"></a>
+                <a href="https://www.instagram.com/economy_of_india_/?hl=en" target="_blank"><img class="img-links"
+                        src="pic/insta.png" height="30px" width="35px"></a>
+                <a href="https://twitter.com/_cmie?lang=en" target="_blank"><img class="img-links" src="pic/twitter.png"
+                        height="30px" width="35px"></a>
+                <a href="https://www.youtube.com/channel/UCJFOER35ggIWwsXh2ZDnqyg" target="_blank"><img
+                        class="img-links" src="pic/youtube.png" height="30px" width="35px"></a>
+            </div>
+
+            <div class="card-body">
+                <p class="card-text">From Indian vultures to Chinese bees, Nature provides the 'natural services'
+                    that keep the economy going.</p>
+                <a href="#" class="btn btn-primary"><i class="bi bi-arrow-bar-up"></i>Go to top</a>
+            </div>
+
+            <div class="card-footer text-muted">
+                <h6>&copy; Copyright 2020, All Rights Reserved</h6>
+            </div>
+        </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 300,
+          duration:900
+      });
+    </script>
+</body>
+
+</html>

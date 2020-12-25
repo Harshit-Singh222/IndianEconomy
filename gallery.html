@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+
+     <!-- AOS -->
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Indian Economy : Gallery</title>
+</head>
+<style>
+    * {
+        font-family: 'Work Sans', sans-serif;
+    }
+
+    .collapse ul li {
+        /* padding-left: 8px; */
+        /* padding-right: 8px; */
+
+        border-radius: 20px;
+
+    }
+
+    .collapse ul li:hover {
+        background-color: black;
+
+        transition: all 200ms ease-in-out;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: white;
+    }
+
+    body::before {
+        content: "";
+        position: absolute;
+        background: url('pic/6.jpg') no-repeat center center/cover;
+        height: 230vh;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        opacity: .7;
+        z-index: -1;
+    }
+
+    .navbar-brand {
+        font-family: 'Langar', cursive;
+        font-size: 2rem;
+    }
+
+
+    .container {
+        margin-top: 65px;
+
+    }
+
+    .container h1 {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .container div {
+        margin-top: 50px;
+
+    }
+
+
+
+
+    .collapse ul li:hover .badge {
+        filter: invert(1);
+
+    }
+    .img-links {
+        padding: 5px;
+        border-radius: 10px;
+        background-color: white;
+
+    }
+
+    .img-links:hover {
+        filter: invert(1);
+        transition: all 150ms ease-in-out;
+    }
+    .hover h5 {
+        position: relative;
+        display: inline;
+        cursor: pointer;
+    }
+
+    .hover h5::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 1.7px;
+        background-color: black;
+
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 200ms ease-in-out;
+    }
+
+    .hover h5:hover::after {
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+
+    @media only screen and (max-width: 1400px) {
+        body::before {
+            height: 230vh;
+        }
+    }
+
+    @media only screen and (max-width: 1200px) {
+        body::before {
+            height: 235vh;
+        }
+    }
+
+    @media only screen and (max-width: 992px) {
+        body::before {
+            height: 240vh;
+        }
+    }
+
+    @media only screen and (max-width: 770px) {
+        body::before {
+            height: 255vh;
+        }
+    }
+
+    @media only screen and (max-width: 540px) {
+        body::before {
+            display: none;
+        }
+    }
+    @media only screen and (max-width: 400px) {
+        .navbar-brand {
+            font-size: 1.6rem;
+        }
+
+
+
+    }
+
+</style>
+
+<body>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Indian Economy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html" target="_blank">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="about.html" target="_blank">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="badge bg-secondary">New</span> Economic
+                            policies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="human resourse development.html" target="_blank">Human Resourse
+                            Development</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="5 year plan.html" target="_blank">5 Year plan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="gallery.html" target="_blank">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="why this.html" target="_blank">Why this?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact us.html" target="_blank">Contact Us</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="card-group" data-aos="fade-right">
+            <div class="card">
+                <img src="pic/five year plan thumbnail.jpg" class="card-img-top" >
+                <div class="card-body hover">
+                    <h5 class="card-title">Five Year Plan</h5>
+                    <p class="card-text">Five-Year Plans, method of planning economic growth over limited periods, through the use of quotas, used first in the Soviet Union and later in other socialist states.</p>
+                    
+                </div>
+            </div>
+            <div class="card" data-aos="zoom-in">
+                <img src="pic/agriculture policies.png" class="card-img-top" >
+                <div class="card-body hover">
+                    <h5 class="card-title">Agricultural Policies</h5>
+                    <p class="card-text">It aims at opening up agricultural sale and marketing outside the notified Agricultural Produce Market Committee or APMC mandis for farmers. It removes barriers to inter-State trade and provides a framework for electronic trading of agricultural produce.
+                    </p>
+                    
+                </div>
+            </div>
+            <div class="card" data-aos="fade-left"
+            data-aos-duration="2000">
+                <img src="pic/industrial growth.jpg" class="card-img-top" >
+                <div class="card-body hover">
+                    <h5 class="card-title">Industrial Growth</h5>
+                    <p class="card-text">Strong growth was recorded in the production of basic metals (10.8%), intermediate goods (8.8%), food products (2.7%) and tobacco products (2.9%). India's Index of eight core industries stood at 131.9 in FY20. Merchandise export decreased 4.78% y-o-y to reach US$ 314.31 billion in FY20.</p>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="card-group">
+            <div class="card" data-aos="fade-up-right">
+                <img src="pic/foreign trade.jpg" class="card-img-top" >
+                <div class="card-body hover">
+                    <h5 class="card-title">Foreign Trade</h5>
+                    <p class="card-text">Foreign trade in India includes all imports and exports to and from India. At the level of Central Government it is administered by the Ministry of Commerce and Industry. Foreign trade accounted for 48.8% of India's GDP in 2018.</p>
+                    
+                </div>
+            </div>
+            <div class="card" data-aos="zoom-in">
+                <img src="pic/rural development.png" class="card-img-top" >
+                <div class="card-body hover">
+                    <h5 class="card-title">Rural Development</h5>
+                    <p class="card-text">Rural development is the process of improving the quality of life and economic well-being of people living in rural areas. The backwardness of the rural sector would be a major impediment to the overall progress of the economy. India is predominately an agricultural country and farming is their main occupation
+                    </p>
+                    
+                </div>
+            </div>
+            <div class="card" data-aos="fade-up-left">
+                <img src="pic/infrastructure.jpg" class="card-img-top" >
+                <div class="card-body hover">
+                    <h5 class="card-title">Infrastructure</h5>
+                    <p class="card-text">India's population growth and economic development requires improved transport infrastructure, including through investments in roads, railways, and aviation, shipping and inland waterways. by 2030, transport is expected to attract over 60 per cent of infrastructure investment in India.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="card text-center"  data-aos="fade-up"
+        data-aos-offset="140"
+        data-aos-duration="900">
+
+            <div class="card-header">
+                <a href="https://www.facebook.com/indianeconomy.net/" target="_blank"><img class="img-links"
+                        src="pic/facebook.png" height="30px" width="35px"></a>
+                <a href="https://www.instagram.com/economy_of_india_/?hl=en" target="_blank"><img class="img-links"
+                        src="pic/insta.png" height="30px" width="35px"></a>
+                <a href="https://twitter.com/_cmie?lang=en" target="_blank"><img class="img-links" src="pic/twitter.png"
+                        height="30px" width="35px"></a>
+                <a href="https://www.youtube.com/channel/UCJFOER35ggIWwsXh2ZDnqyg" target="_blank"><img
+                        class="img-links" src="pic/youtube.png" height="30px" width="35px"></a>
+            </div>
+
+            <div class="card-body">
+                <p class="card-text">From Indian vultures to Chinese bees, Nature provides the 'natural services' that
+                    keep the economy going.</p>
+                <a href="#" class="btn btn-primary"><i class="bi bi-arrow-bar-up"></i>Go to top</a>
+            </div>
+
+            <div class="card-footer text-muted">
+                <h6>&copy; Copyright 2020, All Rights Reserved</h6>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 300,
+          duration:900
+      });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Indian Economy : About</title>
+</head>
+<style>
+    * {
+        font-family: 'Work Sans', sans-serif;
+    }
+
+    .collapse ul li {
+        /* padding-left: 8px; */
+        /* padding-right: 8px; */
+
+        border-radius: 20px;
+
+    }
+
+    .collapse ul li:hover{
+        background-color: black;
+       
+        transition: all 200ms ease-in-out;
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        color: white;
+    }
+
+    body::before {
+        content: "";
+        position: absolute;
+        background: url('pic/7.jpg') no-repeat center center/cover;
+        height: 180vh;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        opacity: .7;
+        z-index: -1;
+    }
+
+    .navbar-brand {
+        font-family: 'Langar', cursive;
+        font-size: 2rem;
+    }
+
+
+    .container {
+        margin-top: 65px;
+
+    }
+
+    .container h1 {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .container div {
+        margin-top: 50px;
+        
+    }
+    
+    .collapse ul li:hover .badge {
+        filter: invert(1);
+
+    }
+
+    .hover h3 {
+        position: relative;
+        display: inline;
+        cursor: pointer;
+    }
+
+    .hover h3::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 1.7px;
+        background-color: black;
+
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 200ms ease-in-out;
+    }
+
+    .hover h3:hover::after {
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+
+
+    .img-links{
+        padding: 5px;
+        border-radius: 10px;
+        background-color: white;
+       
+    }
+    .img-links:hover{
+        filter: invert(1);
+        transition: all 150ms ease-in-out;
+    }
+
+    @media only screen and (max-width: 1400px) {
+        body::before {
+            height: 205vh;
+        }
+    }
+
+    @media only screen and (max-width: 1200px) {
+        body::before {
+            height: 235vh;
+        }
+    }
+
+    @media only screen and (max-width: 992px) {
+        body::before {
+            height: 290vh;
+        }
+    }
+
+    @media only screen and (max-width: 770px) {
+        body::before {
+            height: 370vh;
+        }
+    }
+
+    @media only screen and (max-width: 540px) {
+        body::before {
+            height: 420vh;
+        }
+    }
+    @media only screen and (max-width: 400px) {
+        .navbar-brand {
+            font-size: 1.6rem;
+        }
+    }
+
+
+</style>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Indian Economy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html" target="_blank">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" >About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Economic policies.html" target="_blank"><span class="badge bg-secondary">New</span> Economic
+                            policies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="human resourse development.html" target="_blank">Human Resourse Development</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="5 year plan.html" target="_blank">5 Year plan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html" target="_blank">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="why this.html" target="_blank">Why this?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact us.html" target="_blank">Contact Us</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>About</h1>
+        <div class="hover">
+            <h3>Economy of India</h3>
+            <p> The economy of India is characterised as a middle income developing market economy. It is the world's fifth-largest economy by nominal GDP and the third-largest by purchasing power parity (PPP). According to the International Monetary Fund (IMF), on a per capita income basis, India ranked 142nd by GDP (nominal) and 124th by GDP (PPP) in 2020. From independence in 1947 until 1991, successive governments promoted protectionist economic policies with extensive state intervention and economic regulation, which is characterised as dirigism, in the form of the License Raj. The end of the Cold War and an acute balance of payments crisis in 1991 led to the adoption of a broad economic liberalisation in India. Since the start of the 21st century, annual average GDP growth has been 6% to 7%, and from 2014 to 2018, India was the world's fastest growing major economy, surpassing China. Historically, India was the largest economy in the world for most of the two millennia from the 1st until 19th century.The long-term growth perspective of the Indian economy remains positive due to its young population and corresponding low dependency ratio, healthy savings and investment rates, and is increasing globalisation in India and integration into the global economy. The economy slowed in 2017, due to shocks of "demonetisation" in 2016 and introduction of Goods and Services Tax in 2017. Nearly 60% of India's GDP is driven by domestic private consumption and continues to remain the world's sixth-largest consumer market. Apart from private consumption, India's GDP is also fueled by government spending, investment, and exports. In 2018, India was the world's tenth-largest importer and the nineteenth-largest exporter.<div data-aos="fade-left"> India has been a member of World Trade Organization since 1 January 1995. It ranks 63rd on Ease of doing business index and 68th on Global Competitiveness Report. With 520 million workers, the Indian labour force is the world's second-largest as of 2019. India has one of the world's highest number of billionaires and extreme income inequality. Since India has a vast informal economy, barely 2% of Indians pay income taxes. During the 2008 global financial crisis the economy faced mild slowdown, India undertook stimulus measures (both fiscal and monetary) to boost growth and generate demand; in subsequent years economic growth revived. According to 2017 PricewaterhouseCoopers (PwC) report, India's GDP at purchasing power parity could overtake that of the United States by 2050. According to World Bank, to achieve sustainable economic development India must focus on public sector reform, infrastructure, agricultural and rural development, removal of land and labour regulations, financial inclusion, spur private investment and exports, education and public health.</div>
+                
+        <div data-aos="fade-up-right">In 2019, India's ten largest trading partners were USA, China, UAE, Saudi Arabia, Hong Kong, Iraq, Singapore, Germany, South Korea and Switzerland. In 2018–19, the foreign direct investment (FDI) in India was $64.4 billion with service sector, computer, and telecom industry remains leading sectors for FDI inflows. India has free trade agreements with several nations, including ASEAN, SAFTA, Mercosur, South Korea, Japan and few others which are in effect or under negotiating stage. The service sector makes up 55.6% of GDP and remains the fastest growing sector, while the industrial sector and the agricultural sector employs a majority of the labor force. The Bombay Stock Exchange and National Stock Exchange are one of the world's largest stock exchanges by market capitalization. India is the world's sixth-largest manufacturer, representing 3% of global manufacturing output and employs over 57 million people. Nearly 66% of India's population is rural whose primary source of livelihood is agriculture, and contributes about 50% of India's GDP. It has the world's fifth-largest foreign-exchange reserves worth ₹38,832.21 billion (US$540 billion).  India has a high national debt with 68% of GDP, while its fiscal deficit remained at 3.4% of GDP. However, as per 2019 CAG report, the actual fiscal deficit is 5.85% of GDP. India's government-owned banks faced mounting bad debt, resulting in low credit growth, simultaneously the NBFC sector has been engulfed in a liquidity crisis. India faces high unemployment, rising income inequality, and major slump in aggregate demand. In recent years, independent economists and financial institutions have accused the government of fudging various economic data, especially GDP growth. </div>
+                
+    <div data-aos="fade-up-left">India ranks second globally in food and agricultural production, while agricultural exports were $38.5 billion. The construction and real estate sector is the second largest employer after agriculture, and a vital sector to gauge economic activity. The Indian textiles industry is estimated at $150 billion and contributes 7% of industrial output and 2% of India's GDP while employs over 45 million people directly. The Indian IT industry is a major exporter of IT services with $180 billion in revenue and employs over four million people. India's telecommunication industry is the world's second largest by number of mobile phone, smartphone, and internet users. It is the world's tenth-largest oil producer and the third-largest oil consumer. The Indian automobile industry is the world's fourth largest by production. It has $672 billion worth of retail market which contributes over 10% of India's GDP and has one of world's fastest growing e-commerce markets. India has the world's fourth-largest natural resources, with mining sector contributes 11% of the country's industrial GDP and 2.5% of total GDP.[91] It is also the world's second-largest coal producer, the second-largest cement producer, the second-largest steel producer, and the third-largest electricity producer.</div></p>
+        </div>
+        
+    </div>
+
+    <div class="footer">
+        <div class="card text-center" data-aos="fade-up"
+        data-aos-offset="140"
+        data-aos-duration="900">
+
+            <div class="card-header">
+                <a href="https://www.facebook.com/indianeconomy.net/" target="_blank"><img class="img-links" src="pic/facebook.png" height="30px" width="35px"></a>
+                <a href="https://www.instagram.com/economy_of_india_/?hl=en" target="_blank"><img class="img-links" src="pic/insta.png" height="30px" width="35px"></a>
+                <a href="https://twitter.com/_cmie?lang=en" target="_blank"><img class="img-links" src="pic/twitter.png" height="30px" width="35px"></a>
+                <a href="https://www.youtube.com/channel/UCJFOER35ggIWwsXh2ZDnqyg" target="_blank"><img class="img-links" src="pic/youtube.png" height="30px" width="35px"></a>
+            </div>
+            
+            <div class="card-body">
+              <p class="card-text">From Indian vultures to Chinese bees, Nature provides the 'natural services' that keep the economy going.</p>
+              <a href="#" class="btn btn-primary"><i class="bi bi-arrow-bar-up"></i>Go to top</a>
+            </div>
+
+            <div class="card-footer text-muted">
+              <h6>&copy; Copyright 2020, All Rights Reserved</h6>
+            </div>
+          </div>
+    </div>
+    
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 300,
+          duration:900
+      });
+    </script>
+    
+</body>
+
+</html>

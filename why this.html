@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+
+     <!-- AOS -->
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Indian Economy : Why This Website?</title>
+</head>
+<style>
+    * {
+        font-family: 'Work Sans', sans-serif;
+    }
+
+    .collapse ul li {
+        /* padding-left: 8px; */
+        /* padding-right: 8px; */
+
+        border-radius: 20px;
+
+    }
+
+    .collapse ul li:hover{
+        background-color: black;
+       
+        transition: all 200ms ease-in-out;
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        color: white;
+    }
+
+    body::before {
+        content: "";
+        position: absolute;
+        background: url('pic/5.jpg') no-repeat center center/cover;
+        height: 275vh;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        z-index: -1;
+    }
+
+    .navbar-brand {
+        font-family: 'Langar', cursive;
+        font-size: 2rem;
+    }
+
+
+    .container {
+        margin-top: 65px;
+
+    }
+
+    .container h1 {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .container div {
+        margin-top: 50px;
+        
+    }
+
+
+
+
+    .collapse ul li:hover .badge {
+        filter: invert(1);
+
+    }
+    .img-links{
+        padding: 5px;
+        border-radius: 10px;
+        background-color: white;
+       
+    }
+    .img-links:hover{
+        filter: invert(1);
+        transition: all 150ms ease-in-out;
+    }
+    .hover h3 {
+        position: relative;
+        display: inline;
+        cursor: pointer;
+    }
+
+    .hover h3::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 1.7px;
+        background-color: black;
+
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 200ms ease-in-out;
+    }
+
+    .hover h3:hover::after {
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+    @media only screen and (max-width: 1400px) {
+        body::before {
+            height: 310vh;
+        }
+    }
+
+    @media only screen and (max-width: 1200px) {
+        body::before {
+            height: 353vh;
+        }
+    }
+
+    @media only screen and (max-width: 992px) {
+        body::before {
+            height: 435vh;
+        }
+    }
+
+    @media only screen and (max-width: 770px) {
+        body::before {
+            height: 565vh;
+        }
+    }
+
+    @media only screen and (max-width: 540px) {
+        body::before {
+            display: none;
+        }
+    }
+    @media only screen and (max-width: 400px) {
+        .navbar-brand {
+            font-size: 1.6rem;
+        }
+
+    }
+
+</style>
+
+<body>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Indian Economy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html" target="_blank">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="about.html" target="_blank">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Economic policies.html"><span class="badge bg-secondary">New</span> Economic
+                            policies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="human resourse development.html" target="_blank">Human Resourse Development</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="5 year plan.html" target="_blank">5 Year plan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html" target="_blank">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" target="_blank">Why this?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact us.html" target="_blank">Contact Us</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Purpose of website</h1>
+        <div class="hover">
+            <h3>Why Knowing About Indian Economy Necessary?</h3>
+            <p>Globalisation, led by rapid advances in information and communication technologies, has resulted in the creation of knowledge economy — an economy that creates, disseminates and uses knowledge to enhance growth and development. Competitiveness of nations and corporations depends not just on their physical assets but also on their ability to effectively capitalise their knowledge assets. Knowledge economy is just not restricted to high-tech, information and communication technologies (ICT) industries. It is an economy that leverages the existing knowledge to improve overall productivity across industries and human development. The new knowledge economy presents the most attractive opportunity for lifting Indians out of poverty by enhancing overall productivity and per capita income. Several studies indicate that the Total Factor Productivity (TFP) of a country increases by fostering a strong knowledge economy. As a practitioner in the knowledge economy, I can see that the goal of creating a vibrant knowledge economy is achievable but I am also realistic enough to recognise the enormity of the challenge. <br> Success will require us to act now and on many fronts together. Some of the resources required exist. Others can be marshalled. In spite of having a strong intellectual capital base, India has still a long way to go in utilising her resources towards creating a strong knowledge economy. According to a World Bank publication, India and the Knowledge Economy: Leveraging Strengths and Opportunities, India is at the top of the bottom third in the global knowledge economy. India’s position has not improved much over the past ten years. With a population less than 3% of India, Canada has roughly the same number of persons engaged in research and development as India, and ten times the number of patents. China employs nine times the total number of people employed in R and D as India. India spends close to 0.85% of her GDP in R and D while China spends close to 1.5% of her GDP in R and D. Countries that have high indices for human development and economic growth also have a larger proportion of population who are teachers, researchers and inventors. Besides a uniformly high support system and incentives for education, research and innovation, they have a robust financial and legal system as well as a quality telecommunications-infrastructure. <div data-aos="fade-right"> It is such an environment that is required for success in the global economy increasingly driven by knowledge users.We have long prided ourselves as belonging to a great and ancient tradition of learning. However, our performance on the ground is less impressive. The size of our population means we almost always have a presence in all areas of knowledge and expertise. The numbers often hide how grossly unprepared we are for the knowledge economy. Our performance on a composite index that measures our ability to create, absorb and diffuse knowledge is 98 in a tally of 128 countries.This index is based on education, ownership of patents, copyrights and access to knowledge economy tools such as computers and internet. Interestingly, most countries outside south Asia and sub-Saharan Africa as well as most of the erstwhile Soviet block countries are ahead of India. Our peers and competitors in IT and other services sectors, such as China, Brazil, Russia, and Philippines are some 30 to 50 places ahead.We are low on indices that measure the strength of an enabling environment or the ability of a country to exploit its knowledge resources or potential. For example, our legal system is weak in protecting copyrights and patents, and in punishing harshly any infringement of intellectual property (IP). Our financial system is still infantile in its ability to provide venture capital finance or in creating a regulatory regime that facilitates investment in knowledge economy infrastructure such as telecommunications.</div><div data-aos="fade-left"> As the World Bank’s extensive work in this area demonstrates, we have to work on two fronts. First, we have to enhance our knowledge resources and secondly, create an environment in which they can be harnessed effectively. Certain areas require immediate attention. First and foremost, we must recognise the importance of intellectual property and nurture its creation, protect and reward its creators to achieve our aspirations. At the most basic level, this will mean expanding our educational facilities at all levels to expand the pool of potential IP creators. India must devise a comprehensive approach to building science and technology (S and T) infrastructure. Science education should be made attractive at all levels to build a sustainable science base. Science has been losing out to other disciplines, particularly at the college level. Several studies show that, even before students leave their school, the science aversion sets in. In fact, a study by NCAER mentions that less than 3% of school children want to pursue a career in science. We have to create an environment that develops a passion for science at the school level by emphasising learning by practice and laboratory training. India should build institutions of excellence in science and technology. Such institutions should forge appropriate industry tie-ups and must involve in knowledge transfer with world class universities. </div><div data-aos="fade-right"> They must be encouraged to build their intellectual property. Research and development effort in universities and in industry in the public and private sector has to expand many times. We must ensure that persons of calibre find it rewarding and remunerative to carry out research and create world class IP. Interestingly, a closer look at the knowledge economy data referred to above reveals that countries that are leading creators of IP are not necessarily net exporters of IP. A look at the royalty and licence fee transactions by countries at the forefront of the knowledge economy, shows that, with some exceptions like Iceland, payments and receipt for royalties and licence fees are both relatively high. This underlines an important feature of the new global economy, namely, that profiting from ownership of IP and paying fairly for use of others’ IP go hand in hand. Data for India shows that her payments for IP as well as receipts from IP are both low, implying a low “consumption” of IP. In this, India is unlike the leaders as well as her own peers like China and Brazil. This could mean, disturbingly, that we may not be utilising the best quality IP in solving our problems. Most countries, therefore, have a stake in installing and enforcing a robust system of IP protection to fulfil their aspirations in the knowledge economy. India must adopt the global best practices towards building a strong IP protection environment. </div><div data-aos="fade-left"> Several studies indicate that strengthening the IPR will encourage more innovation in the global economy and will accelerate the transfer of technology between nations resulting in benefits for all the countries. India’s many challenges require creative solutions based on experience elsewhere as well as new locally-produced IP. Delivering IT application and e-governance solutions to the diverse population of India has already initiated much original work in Indian language computing and in applications relevant to us. This and other IP will be of considerable value to many. Indians already own considerable IP in the area of wireless applications. Many companies have invested quality resources in IP creation. </div><div data-aos="fade-up-right"> Recognising these trends and their relevance, India set up a National Knowledge Commission (NKC) last year to suggest measures so as to secure her place in the new environment. The objective of NKC is to enable the development of a vibrant knowledge-based society. This requires both a radical improvement in existing systems of knowledge, and in creating avenues for generating new forms of knowledge. NKC seeks to develop institutional frameworks to build excellence in the educational system and promoting creation of knowledge in S and T laboratories. NKC will advise on improving management of institutions engaged in intellectual property rights. It will also suggest measures for promoting knowledge application in sectors like health, agriculture and industry and leverage the ICT capabilities in improving governance. It is essential that such an eminent body is supported by leading educational and research institutions as well as the private sector. Therefore, the writing is on the wall for us. </div><div data-aos="fade-up-left"> India has to recognise that she has tremendous stake in the emerging knowledge economy. First, she must concentrate on efforts to create, consume, and leverage intellectual property to solve our own challenges as well as for becoming a globally-competitive knowledge economy. Second, we must undertake rapid upgrade of education facilities — schools, colleges, and S and T institutions. Finally, India must create a robust regulatory environment that provides protection and fair rewards to creators of IP and promotes investment and competition.</div> </p>
+        </div>
+    </div>
+
+        <div class="footer">
+            <div class="card text-center"  data-aos="fade-up"
+            data-aos-offset="140"
+            data-aos-duration="900">
+
+                <div class="card-header">
+                    <a href="https://www.facebook.com/indianeconomy.net/" target="_blank"><img class="img-links" src="pic/facebook.png" height="30px" width="35px"></a>
+                    <a href="https://www.instagram.com/economy_of_india_/?hl=en" target="_blank"><img class="img-links" src="pic/insta.png" height="30px" width="35px"></a>
+                    <a href="https://twitter.com/_cmie?lang=en" target="_blank"><img class="img-links" src="pic/twitter.png" height="30px" width="35px"></a>
+                    <a href="https://www.youtube.com/channel/UCJFOER35ggIWwsXh2ZDnqyg" target="_blank"><img class="img-links" src="pic/youtube.png" height="30px" width="35px"></a>
+                </div>
+                
+                <div class="card-body">
+                  <p class="card-text">From Indian vultures to Chinese bees, Nature provides the 'natural services' that keep the economy going.</p>
+                  <a href="#" class="btn btn-primary"><i class="bi bi-arrow-bar-up"></i>Go to top</a>
+                </div>
+
+                <div class="card-footer text-muted">
+                  <h6>&copy; Copyright 2020, All Rights Reserved</h6>
+                </div>
+              </div>
+        </div>
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+            crossorigin="anonymous"></script>
+
+        <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 300,
+          duration:900
+      });
+    </script>
+</body>
+
+</html>
